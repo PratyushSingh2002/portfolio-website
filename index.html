@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fas fa-code"></i> Portfolio</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Pratyush Singh</span></h1>
+            <p class="typing-text">I'm a  Software Developer<span class="typed-text"></span></p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary-btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                <a href="#projects" class="btn secondary-btn"><i class="fas fa-code-branch"></i> View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/me-cropped.jpg" alt="Pratyush Singh's Profile Picture">
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm a passionate developer with expertise in creating beautiful and functional web applications. I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>Name:</span>
+                        <p>Pratyush Singh</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email:</span>
+                        <p>nirajdinesh043@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location:</span>
+                        <p>Umargam</p>
+                    </div>
+                </div>
+                <a href="#" class="btn primary-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=500&fit=crop" alt="TechElite E-commerce Project">
+                </div>
+                <div class="project-info">
+                    <h3>TechElite E-commerce</h3>
+                    <p>A responsive e-commerce website for an electronics brand with sections for Mobile Phones, Laptops, and Home Appliances. Features include product filtering, cart management, and a modern UI.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-html5"></i> HTML5</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fab fa-github"></i> GitHub</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/PratyushSingh2002/TechElite-Ecommerce.git" target="_blank" class="btn small-btn"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&h=500&fit=crop" alt="Weather App Project">
+                </div>
+                <div class="project-info">
+                    <h3>Weather App</h3>
+                    <p>A real-time weather application that provides current weather conditions, forecasts, and location-based weather updates. Features include temperature conversion and weather alerts.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-html5"></i> HTML5</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fas fa-cloud"></i> API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=500&h=500&fit=crop" alt="Task Manager Project">
+                </div>
+                <div class="project-info">
+                    <h3>Task Manager</h3>
+                    <p>A productivity application for managing daily tasks and projects. Features include task categorization, priority levels, due dates, and progress tracking.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-react"></i> React</span>
+                        <span><i class="fab fa-node-js"></i> Node.js</span>
+                        <span><i class="fas fa-database"></i> MongoDB</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&h=500&fit=crop" alt="Portfolio Website">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern, responsive portfolio website showcasing projects and skills. Features include smooth animations, dark mode, and interactive UI elements.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-html5"></i> HTML5</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fas fa-paint-brush"></i> Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-terminal"></i>
+                        <span>Terminal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>nirajdinesh043@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91 9601734609</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p><a href="https://maps.app.goo.gl/yEQHzTSSx5KAaqfK8" target="_blank" class="location-link">Umargam, Gujarat</a></p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
